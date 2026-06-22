@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -45,7 +39,7 @@ div[data-testid="metric-container"] {
 # Load Dataset
 
 
-df = pd.read_csv("C:/Users/nehau/Downloads/Palo Alto Networks.csv"
+df = pd.read_csv("C:Palo Alto Networks.csv"
 )
 
 # Convert Attrition if needed
